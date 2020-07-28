@@ -1,7 +1,7 @@
 CMS Module
 
 ## Design
-There 2 modules, named frontend and DB, modules each for creating frontend with LB, ASG, and target group and other to create backend DB.
+There are 2 modules, named frontend and DB,each for creating frontend with LB, ASG, and target group and other to create backend DB.
 
 Frontend module creates a LB which is pointed to a target group on AWS. This target group is then attached to ASG.
 Depending on the CPU usage the number of instances in the ASG can scale in or scale out. 
